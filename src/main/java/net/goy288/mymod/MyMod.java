@@ -1,8 +1,8 @@
 package net.goy288.mymod;
 
-import net.fabric.api.ModInitializer;
+import net.fabricmc.api.ModInitializer;
 
-public class CoolMod implements ModInitializer {
+public class MyMod implements ModInitializer {
 
     @Override
     public void onInitialize() {
