@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "my-mod",
+  "id": "consoledimension",
   "version": "${version}",
 
   "name": "My Mod",
@@ -14,12 +14,12 @@
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/my-mod/icon.png",
+  "icon": "assets/consoledimension/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.goy288.mymod.MyMod"
+      "net.goy288.consoledimension.ModInit"
     ]
   },
   "mixins": [

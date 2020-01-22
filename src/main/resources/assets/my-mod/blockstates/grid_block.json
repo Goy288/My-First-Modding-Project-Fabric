@@ -1,5 +1,5 @@
 {
     "variants": {
-        "": { "model": "my-mod:block/grid_block" }
+        "": { "model": "consoledimension:block/grid_block" }
     }
 }
