@@ -4,11 +4,13 @@ import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.block.FabricBlockSettings;
 import net.minecraft.block.Block;
 import net.minecraft.block.Material;
+import net.minecraft.entity.EntityType;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
+import net.minecraft.world.World;
 
 public class MyMod implements ModInitializer {
     // The block that will make up the majority of the console dimension.
@@ -23,5 +25,6 @@ public class MyMod implements ModInitializer {
         Registry.register(Registry.ITEM, 
             new Identifier("my-mod", "grid_block"), 
             new BlockItem(GRID_BLOCK, new Item.Settings().group(ItemGroup.MISC)));
+        //DigiCreeperEntity digiCreeper = new DigiCreeperEntity();
     }
 }
