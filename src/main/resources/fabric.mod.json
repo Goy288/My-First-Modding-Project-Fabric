@@ -19,7 +19,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      
+      "net.goy288.mymod.MyMod"
     ]
   },
   "mixins": [

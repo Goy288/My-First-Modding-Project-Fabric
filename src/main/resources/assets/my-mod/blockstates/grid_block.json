@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "": { "model": "my-mod:block/grid_block" }
+    }
+}
